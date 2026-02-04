@@ -1,12 +1,21 @@
-name: navaneeth
-on:
+name: Navaneeth
+
+on: 
   push:
-    branches:
-      - main
+     branches:  
+         - main
+  
 jobs:
-  run-on:
+  first:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello"
+      - name: apple
+        run: echo "appl"
+  
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: apple
+        run: echo "appl"
 
-    
+   
